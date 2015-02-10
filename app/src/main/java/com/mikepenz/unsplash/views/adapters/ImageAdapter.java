@@ -76,6 +76,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImagesViewHolder> {
     public void onBindViewHolder(final ImagesViewHolder imagesViewHolder, final int position) {
 
         final Image currentImage = mImages.get(position);
+        imagesViewHolder.image.setImageBitmap(null);
         imagesViewHolder.imageAuthor.setText(currentImage.getAuthor());
         imagesViewHolder.imageDate.setText(currentImage.getReadableModified_Date());
         //imagesViewHolder.imageView.setDrawingCacheEnabled(true);
