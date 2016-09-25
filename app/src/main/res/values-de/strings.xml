@@ -45,7 +45,7 @@
     <string name="aboutLibraries_description_showVersion">true</string>
     <string name="aboutLibraries_description_text">
         <![CDATA[
-        <b>wall:splash</b> by <a href="mikepenz.com">Mike Penz</a>
+        <b>wall:splash</b> von <a href="mikepenz.com">Mike Penz</a>
         ist ein (inoffizieller) Cleint für den genialen
         <a href="https://unsplash.com">unsplash</a>
         "Kostenlose (tu was du willst) hochauflösende Foto."-Dienst von
