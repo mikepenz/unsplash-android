@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wall:splash</string>
+    <string name="action_open_source">Quelloffen</string>
+    <string name="action_shuffle">Mischen</string>
+
+    <!-- categories -->
+    <string name="category_all">Alle</string>
+    <string name="category_featured">Vorgestellt</string>
+    <string name="category_section_categories">Kategorien</string>
+    <string name="category_buildings">Buildings</string>
+    <string name="category_food">Essen &amp; Getränke</string>
+    <string name="category_nature">Natur</string>
+    <string name="category_objects">Objekte</string>
+    <string name="category_people">Menschen</string>
+    <string name="category_technology">Technologie</string>
+
+    <!-- Images fragments -->
+    <string name="loading_images">Lade Bilder\nBitte warten&#8230;</string>
+
+    <!-- Dialog -->
+    <string name="dialog_setting_title">Herunterladen</string>
+    <string name="dialog_setting_text">Bitte warte, während die hochauflösende Version des Hintergrund heruntergeladen wird. Er wird bald bereit sein&#8230;</string>
+
+    <!-- Try longclicking the buttons -->
+    <string name="help_try_long_click">Gedrückt halten für mehr Optionen</string>
+    <string name="help_try_long_click_ok">OK</string>
+
+    <!-- Muzei support -->
+    <string name="muzei_description">tolle unsplash Bilder</string>
+
+    <!-- network exceptions -->
+    <string name="error_network">Keine Verbindung</string>
+    <string name="error_network_subtitle">Es scheint, als hättest du keine Netzwerkverbindung.</string>
+    <string name="error_server">Serverfehler</string>
+    <string name="error_server_subtitle">Der Server hat einen Fehler zurückgegeben.</string>
+    <string name="error_uncommon">WTF?!</string>
+    <string name="error_uncommon_subtitle">Es ist ein Fehler aufgetreten, der nicht passieren sollte!</string>
+    <!-- storage exceptions -->
+    <string name="error_no_storage">Externer Speicher nicht verfügbar</string>
+
+    <!-- about this app -->
+    <string name="aboutLibraries_description_showIcon">true</string>
+    <string name="aboutLibraries_description_showVersion">true</string>
+    <string name="aboutLibraries_description_text">
+        <![CDATA[
+        <b>wall:splash</b> von <a href="mikepenz.com">Mike Penz</a>
+        ist ein (inoffizieller) Cleint für den genialen
+        <a href="https://unsplash.com">unsplash</a>
+        "Kostenlose (tu was du willst) hochauflösende Foto."-Dienst von
+        <a href="https://pickcrew.com/">Crew</a>
+        <br/>
+        <br/>
+        Die App basiert auf dem großartigen
+        <a href="https://github.com/saulmm/OpenLibra-Material">OpenLibra-Material</a>
+        GitHub Repository von
+        <a href="https://plus.google.com/u/0/+SaulMolineroMalvido/posts">Saul MM</a>
+        <br/>
+        <br/>
+        Anwendung und API entwickelt von <a href="mikepenz.com">Mike Penz</a>
+        ]]>
+    </string>
+
+    <!-- DialogFragment -->
+    <string name="cancel_label">Abbrechen</string>
+    <string name="confirm_label">Bestätigen</string>
+    <string name="selected_folder_label">Ausgewählter Ordner:</string>
+    <string name="create_folder_label">Ordner erstellen</string>
+    <string name="create_folder_msg">Neuen Ordener mit dem Namen "%1$s" erstellen?</string>
+    <string name="create_folder_success">Neuer Ordner erstellt</string>
+    <string name="create_folder_error_no_write_access">Keine Schreibrechte in diesem Ordner</string>
+    <string name="create_folder_error_already_exists">Der Ordner existier bereits</string>
+    <string name="create_folder_error">Konnte Ordner nicht erstellen</string>
+    <string name="up_label">Hoch</string>
+</resources>
