@@ -2,17 +2,17 @@
 <resources>
 
     <string name="app_name">wall:splash</string>
-    <string name="action_open_source">Open Source</string>
+    <string name="action_open_source">Открытый исходный код</string>
     <string name="action_shuffle">Перемешать</string>
 
     <!-- categories -->
     <string name="category_all">Все</string>
     <string name="category_featured">Рекомендуемые</string>
     <string name="category_section_categories">КАТЕГОРИИ</string>
-    <string name="category_buildings">Здания и сооружения</string>
+    <string name="category_buildings">Здания и соорущения</string>
     <string name="category_food">Еда и напитки</string>
     <string name="category_nature">Природа</string>
-    <string name="category_objects">Предметы</string>
+    <string name="category_objects">Объекты</string>
     <string name="category_people">Люди</string>
     <string name="category_technology">Технологии</string>
 
@@ -20,11 +20,11 @@
     <string name="loading_images">Загрузка изображений\nПожалуйста, подождите&#8230;</string>
 
     <!-- Dialog -->
-    <string name="dialog_setting_title">Скачивание</string>
-    <string name="dialog_setting_text">Пожалуйста, подождите. Идет загрузка обоев&#8230;</string>
+    <string name="dialog_setting_title">Загрузка</string>
+    <string name="dialog_setting_text">Пожалуйста, подождите, загружается версия высокого разрешения. Осталось чуть-чуть&#8230;</string>
 
     <!-- Try longclicking the buttons -->
-    <string name="help_try_long_click">Try a long-click on the actions for advanced options</string>
+    <string name="help_try_long_click">Зажмите одну из кнопок для вызова доп. опций</string>
     <string name="help_try_long_click_ok">OK</string>
 
     <!-- Muzei support -->
@@ -32,13 +32,13 @@
 
     <!-- network exceptions -->
     <string name="error_network">Нет соединения</string>
-    <string name="error_network_subtitle">Кажется, вы не подключены к сети.</string>
-    <string name="error_server">Server Exception</string>
-    <string name="error_server_subtitle">The server returned an exception.</string>
-    <string name="error_uncommon">WTF?!</string>
-    <string name="error_uncommon_subtitle">There was an exception which should not happen!</string>
+    <string name="error_network_subtitle">Кажется, у вас нет подключения к сети.</string>
+    <string name="error_server">Исключение сервера</string>
+    <string name="error_server_subtitle">Сервер возвратил исключение.</string>
+    <string name="error_uncommon">Что за?!</string>
+    <string name="error_uncommon_subtitle">Было выявлено исключение, которое не должно произойти!</string>
     <!-- storage exceptions -->
-    <string name="error_no_storage">Недостаточно памяти/отсутствует карта памяти</string>
+    <string name="error_no_storage">Внешнее хранилище недоступно</string>
 
     <!-- about this app -->
     <string name="aboutLibraries_description_showIcon">true</string>
@@ -57,14 +57,14 @@
     </string>
 
     <!-- DialogFragment -->
-    <string name="cancel_label">Cancel</string>
-    <string name="confirm_label">Confirm</string>
-    <string name="selected_folder_label">Selected folder:</string>
-    <string name="create_folder_label">Create folder</string>
-    <string name="create_folder_msg">Create new folder with name "%1$s"?</string>
-    <string name="create_folder_success">Created new folder</string>
-    <string name="create_folder_error_no_write_access">Cannot write to this folder</string>
-    <string name="create_folder_error_already_exists">Folder already exists</string>
-    <string name="create_folder_error">Could not create folder</string>
-    <string name="up_label">Up</string>
+    <string name="cancel_label">Отмена</string>
+    <string name="confirm_label">Подтвердить</string>
+    <string name="selected_folder_label">Выбранная папка:</string>
+    <string name="create_folder_label">Создать папку</string>
+    <string name="create_folder_msg">Создать папку с именем "%1$s"?</string>
+    <string name="create_folder_success">Новая папка создана</string>
+    <string name="create_folder_error_no_write_access">Невозможно записать в эту папку</string>
+    <string name="create_folder_error_already_exists">Папка уже существует</string>
+    <string name="create_folder_error">Невозможно создать папку</string>
+    <string name="up_label">Вверх</string>
 </resources>
